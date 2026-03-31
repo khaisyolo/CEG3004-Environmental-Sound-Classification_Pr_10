@@ -154,6 +154,14 @@ These visualizations help understand the acoustic characteristics of environment
 
 ---
 
+# Error Analysis
+
+Some classes such as airplane, wind, and helicopter achieved lower recall.
+
+This is likely because these classes share similar low-frequency spectral characteristics, making them harder to separate using MFCC-based classical features.
+
+Future work may use CNN-based spectrogram learning to improve separation of acoustically similar classes.
+
 # Repository Structure
 
 ```

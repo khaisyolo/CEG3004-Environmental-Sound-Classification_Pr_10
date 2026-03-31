@@ -18,6 +18,8 @@ The system is evaluated on:
 
 The model extracts DSP features from audio clips and predicts the corresponding sound class.
 
+The final model is designed to maintain strong performance across clean, noisy, and band-limited audio conditions, matching the project robustness evaluation criteria.
+
 ---
 
 # Dataset
